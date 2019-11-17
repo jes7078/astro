@@ -1,12 +1,267 @@
 :root {
-  font: 16px / 1 sans-serif;
+	font: 16px / 1 sans-serif;
 }
 
 html {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
+	margin: 0;
+	min-height: 100%;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	margin-left: 2rem;
+}
+
+.title a {
+	text-decoration: none;
+	font-size: 3rem;
+	color: white;
+	margin: 0rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	font-size: 2rem;
+	margin: 2rem;
+}
+
+nav a {
+	color: white;
+}
+
+.top-section {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(75, 52, 162);
+}
+
+.middle-section {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#explore {
+	color: white;
+	font-size: 3rem;
+	margin: auto;
+	text-align: center;
+}
+
+.copy-title-parent {
+	background: white;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.copy-title {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#copyright {
+	margin: 0;
+	color: black;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+#title {
+	margin: 0;
+	padding-left: .5rem;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.yellow {
+	margin: 0;
+	background: rgb(246, 194, 68);
+}
+
+.upcoming {
+	margin: 0px;
+	padding: 0px;
+}
+
+#upcoming-launches {
+	font-size: 3rem;
+	margin: 0;
+
+	padding: 1rem;
+}
+
+.rocket-updates {
+	height: 100%;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#left-button {
+	width: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 8rem 0rem 8rem 0rem;
+	background-color: rgb(246, 194, 68);
+	font-size: 4rem;
+	border-radius: 0 1rem 1rem 0rem;
+}
+
+.rocket-info-back {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	height: 90%;
+	background-color: #ededed;
+	width: 80%;
+	border-radius: .5rem;
+	padding: 0 1rem 2rem 1rem;
+}
+
+#right-button {
+	width: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 8rem 0rem 8rem 0rem;
+	background-color: rgb(246, 194, 68);
+	font-size: 4rem;
+	border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.our-mission-parent {
+	background-color: rgb(207, 197, 230);
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+#mission-statement {
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 3rem;
+	margin-bottom: 0;
+}
+
+#mission-statement-para {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 1.75rem;
+	text-align: center;
+	font-weight: 400;
+}
+
+.footer-parent {
+	background-color: rgb(96, 65, 176);
+	display: flex;
+	padding-top: 1rem;
+	font-weight: 400;
+}
+
+footer h1 {
+	color: rgb(204, 204, 204);
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+footer a {
+	color: rgb(204, 204, 204);
+	list-style: none;
+	margin: auto;
+	font-size: 1.5rem;
+	padding-left: 1rem;
+	font-weight: 400;
+}
+
+.footer-row {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.fa-heart {
+	font-size: 1.5rem;
+	color: #ffc107;
+	font-weight: 400;
+}
+
+.countdown {
+	display: flex;
+	flex-direction: row;
+	padding-left: 1.6rem;
+	font-size: 1.5rem;
+}
+
+.launchSite {
+	display: flex;
+	flex-direction: row;
+	padding-left: 1.6rem;
+	font-size: 1.5rem;
+}
+
+.detail-parent {
+	display: flex;
+	flex-direction: row;
+	padding-left: 2rem;
+	font-size: 1.5rem;
+	color: #212121;
+	font-weight: lighter;
+}
+
+.rocket {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+hr {
+	border-top: 1px solid lightslategrey;
+}
+
+#details {
+	font-weight: 400;
+}
+
+#days {
+	font-weight: 400;
+}
+
+#hours {
+	font-weight: 400;
+}
+
+#minutes {
+	font-weight: 400;
+}
+
+#seconds {
+	font-weight: 400;
+}
+
+#launch-site-long {
+	font-weight: 400;
 }
